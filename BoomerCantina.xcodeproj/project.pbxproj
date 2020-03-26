@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C8BB619DBEB2E5891C21547 /* Pods_BoomerCantina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9FD720D916B1B2BC4FE486 /* Pods_BoomerCantina.framework */; };
+		A12894F5242233ED00392159 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12894F4242233ED00392159 /* AppDelegate.swift */; };
+		A12894FE242233EE00392159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12894FD242233EE00392159 /* Assets.xcassets */; };
+		A1289501242233EE00392159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12894FF242233EE00392159 /* LaunchScreen.storyboard */; };
+		A12D3AEE242666410039EE5F /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12D3AED242666410039EE5F /* CartViewController.swift */; };
+		A174B68E2423DA0500B05D45 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174B68D2423DA0500B05D45 /* Food.swift */; };
+		A174B6922423E93B00B05D45 /* DataProvider+SetupDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174B6912423E93B00B05D45 /* DataProvider+SetupDB.swift */; };
+		A17FA966242270E800FC3001 /* CantinaDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA965242270E800FC3001 /* CantinaDataProvider.swift */; };
+		A1C04377242506D400771911 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C04376242506D400771911 /* FoodCell.swift */; };
+		A1C0437B24250ABF00771911 /* ImageDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0437A24250ABF00771911 /* ImageDownloadManager.swift */; };
+		A1C0437D24250B1500771911 /* StringExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0437C24250B1500771911 /* StringExtention.swift */; };
+		A1C0437F24250CBF00771911 /* FoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0437E24250CBF00771911 /* FoodListViewController.swift */; };
+		A1C04381242547A900771911 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C04380242547A900771911 /* check.png */; };
+		A1D244E72428123E004E9C75 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D244E62428123E004E9C75 /* Observable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0618551059BFF87D97664D3 /* Pods-BoomerCantina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoomerCantina.debug.xcconfig"; path = "Target Support Files/Pods-BoomerCantina/Pods-BoomerCantina.debug.xcconfig"; sourceTree = "<group>"; };
+		A12894F1242233ED00392159 /* BoomerCantina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoomerCantina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12894F4242233ED00392159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A12894FD242233EE00392159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1289500242233EE00392159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1289502242233EE00392159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12D3AED242666410039EE5F /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		A174B68D2423DA0500B05D45 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		A174B6912423E93B00B05D45 /* DataProvider+SetupDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataProvider+SetupDB.swift"; sourceTree = "<group>"; };
+		A17FA965242270E800FC3001 /* CantinaDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantinaDataProvider.swift; sourceTree = "<group>"; };
+		A1C04376242506D400771911 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		A1C0437A24250ABF00771911 /* ImageDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloadManager.swift; sourceTree = "<group>"; };
+		A1C0437C24250B1500771911 /* StringExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtention.swift; sourceTree = "<group>"; };
+		A1C0437E24250CBF00771911 /* FoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewController.swift; sourceTree = "<group>"; };
+		A1C04380242547A900771911 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		A1D244E62428123E004E9C75 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		A5A6D0EB0DECCFB5E4CBE078 /* Pods-BoomerCantina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoomerCantina.release.xcconfig"; path = "Target Support Files/Pods-BoomerCantina/Pods-BoomerCantina.release.xcconfig"; sourceTree = "<group>"; };
+		FA9FD720D916B1B2BC4FE486 /* Pods_BoomerCantina.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoomerCantina.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A12894EE242233ED00392159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8BB619DBEB2E5891C21547 /* Pods_BoomerCantina.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A12894E8242233ED00392159 = {
+			isa = PBXGroup;
+			children = (
+				A12894F3242233ED00392159 /* BoomerCantina */,
+				A12894F2242233ED00392159 /* Products */,
+				AEC346C2169629053B909E76 /* Pods */,
+				C70B65F2EB04A92D0DF11E29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A12894F2242233ED00392159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A12894F1242233ED00392159 /* BoomerCantina.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A12894F3242233ED00392159 /* BoomerCantina */ = {
+			isa = PBXGroup;
+			children = (
+				A16ABE762427DC1D00AEFDCB /* Extension */,
+				A16ABE752427DC0400AEFDCB /* ViewControllers */,
+				A16ABE742427DBC700AEFDCB /* DataProvider */,
+				A12894F4242233ED00392159 /* AppDelegate.swift */,
+				A12894FD242233EE00392159 /* Assets.xcassets */,
+				A12894FF242233EE00392159 /* LaunchScreen.storyboard */,
+				A1289502242233EE00392159 /* Info.plist */,
+				A1C04380242547A900771911 /* check.png */,
+				A1D244E62428123E004E9C75 /* Observable.swift */,
+			);
+			path = BoomerCantina;
+			sourceTree = "<group>";
+		};
+		A16ABE742427DBC700AEFDCB /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				A1C0437A24250ABF00771911 /* ImageDownloadManager.swift */,
+				A17FA965242270E800FC3001 /* CantinaDataProvider.swift */,
+				A174B6912423E93B00B05D45 /* DataProvider+SetupDB.swift */,
+				A174B68C2423D9F400B05D45 /* Models */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		A16ABE752427DC0400AEFDCB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1C04376242506D400771911 /* FoodCell.swift */,
+				A1C0437E24250CBF00771911 /* FoodListViewController.swift */,
+				A12D3AED242666410039EE5F /* CartViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A16ABE762427DC1D00AEFDCB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A1C0437C24250B1500771911 /* StringExtention.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A174B68C2423D9F400B05D45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A174B68D2423DA0500B05D45 /* Food.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AEC346C2169629053B909E76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0618551059BFF87D97664D3 /* Pods-BoomerCantina.debug.xcconfig */,
+				A5A6D0EB0DECCFB5E4CBE078 /* Pods-BoomerCantina.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C70B65F2EB04A92D0DF11E29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA9FD720D916B1B2BC4FE486 /* Pods_BoomerCantina.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A12894F0242233ED00392159 /* BoomerCantina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1289505242233EE00392159 /* Build configuration list for PBXNativeTarget "BoomerCantina" */;
+			buildPhases = (
+				1236BD5561254F51747303D9 /* [CP] Check Pods Manifest.lock */,
+				A12894ED242233ED00392159 /* Sources */,
+				A12894EE242233ED00392159 /* Frameworks */,
+				A12894EF242233ED00392159 /* Resources */,
+				DA647B50BA7A9479E3414765 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoomerCantina;
+			productName = BoomerCantina;
+			productReference = A12894F1242233ED00392159 /* BoomerCantina.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A12894E9242233ED00392159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Nicolas Bellon";
+				TargetAttributes = {
+					A12894F0242233ED00392159 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A12894EC242233ED00392159 /* Build configuration list for PBXProject "BoomerCantina" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A12894E8242233ED00392159;
+			productRefGroup = A12894F2242233ED00392159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A12894F0242233ED00392159 /* BoomerCantina */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A12894EF242233ED00392159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1289501242233EE00392159 /* LaunchScreen.storyboard in Resources */,
+				A1C04381242547A900771911 /* check.png in Resources */,
+				A12894FE242233EE00392159 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1236BD5561254F51747303D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoomerCantina-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA647B50BA7A9479E3414765 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoomerCantina/Pods-BoomerCantina-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoomerCantina/Pods-BoomerCantina-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoomerCantina/Pods-BoomerCantina-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A12894ED242233ED00392159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12894F5242233ED00392159 /* AppDelegate.swift in Sources */,
+				A1C0437D24250B1500771911 /* StringExtention.swift in Sources */,
+				A17FA966242270E800FC3001 /* CantinaDataProvider.swift in Sources */,
+				A1C04377242506D400771911 /* FoodCell.swift in Sources */,
+				A174B6922423E93B00B05D45 /* DataProvider+SetupDB.swift in Sources */,
+				A174B68E2423DA0500B05D45 /* Food.swift in Sources */,
+				A1D244E72428123E004E9C75 /* Observable.swift in Sources */,
+				A1C0437F24250CBF00771911 /* FoodListViewController.swift in Sources */,
+				A12D3AEE242666410039EE5F /* CartViewController.swift in Sources */,
+				A1C0437B24250ABF00771911 /* ImageDownloadManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A12894FF242233EE00392159 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1289500242233EE00392159 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1289503242233EE00392159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1289504242233EE00392159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1289506242233EE00392159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0618551059BFF87D97664D3 /* Pods-BoomerCantina.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BoomerCantina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boomer.BoomerCantina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1289507242233EE00392159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A6D0EB0DECCFB5E4CBE078 /* Pods-BoomerCantina.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BoomerCantina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boomer.BoomerCantina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A12894EC242233ED00392159 /* Build configuration list for PBXProject "BoomerCantina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1289503242233EE00392159 /* Debug */,
+				A1289504242233EE00392159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1289505242233EE00392159 /* Build configuration list for PBXNativeTarget "BoomerCantina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1289506242233EE00392159 /* Debug */,
+				A1289507242233EE00392159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A12894E9242233ED00392159 /* Project object */;
+}

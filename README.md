@@ -6,3 +6,5 @@ If the FireBase DataBase is edited from an external source (another app, or from
 
 The User is able to add and remove Food in a Cart.
 This Cart is also sync whith FireBase RealTimeDataBase
+
+DON'T FORGET TO ADD YOUR OWN GoogleService-Info.plist

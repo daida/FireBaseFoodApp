@@ -1,7 +1,7 @@
 # FireBaseFoodApp
 Fake Food iOS App based on FireBase RealTime DataBase
 
-Support Add, Deletion and modification in realtime.
+Support add, deletion and editon in realtime.
 
 If the FireBase DataBase is edited from an external source (another app, or from the FireBase Console) the App will react.
 
